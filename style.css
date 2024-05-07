@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3a3d47;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor{
+    width: 1200px;
+    background-color: white;
+    margin: 10px auto;
+}
+.cabeza{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo-blanco{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+.navegador{
+    padding: 50px;
+    float: left;
+}
+.nav-opciones li{
+    float: left;
+    list-style: none;
+}
+.nav-opciones li a{
+    color: white;
+    padding: 25px 35px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+.nav-opciones li a:hover{
+    background: #08203f;
+}
+.cuerpo{
+    overflow: hidden;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 17px 0;
+    font-size: 2.5rem;
+    color: #ff7600;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 10px;
+}
+.subtitulo{
+    background: #1551a1;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.imgefec:hover{
+    opacity: 0.9;
+}
+.contenido{
+    padding: 20px;
+    background: white;
+    height: 180px;
+    border: 1px solid black;
+    border-top: 0;
+}
+.boton{
+    position: relative;
+    left: 120px;
+    background: rgb(44, 44, 207);
+    padding: 15px;
+    margin: 20px 0;
+    color: white;
+}
+.boton:hover{
+    background-color: #08203f;
+}
+.contenedor-footer{
+    background: #08203f;
+    height: 160px;
+}
+.izquierda-footer{
+    float: left;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.izquierda-footer img{
+    margin: 10px;
+}
+.derecha-footer{
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
